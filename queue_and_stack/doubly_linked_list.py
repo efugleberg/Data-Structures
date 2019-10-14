@@ -106,9 +106,9 @@ class DoublyLinkedList:
     def move_to_front(self, node):
         if node is self.head:
             return
-        value = node.value
+        replace = node.value
         self.delete(node)
-        self.add_to_head(value)
+        self.add_to_head(replace)
 
     """Removes the input node from its current spot in the 
     List and inserts it as the new tail node of the List."""
