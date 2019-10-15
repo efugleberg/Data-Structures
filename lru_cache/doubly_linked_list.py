@@ -3,8 +3,7 @@ as well as its next node in the List."""
 
 
 class ListNode:
-    def __init__(self, key, value, prev=None, next=None):
-        self.key = key
+    def __init__(self, value, prev=None, next=None):
         self.value = value
         self.prev = prev
         self.next = next
